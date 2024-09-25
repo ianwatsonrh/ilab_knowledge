@@ -98,7 +98,7 @@ seed_examples:
       - question: |
           What sports were dropped from the 2024 Olympics?
         answer: |
-          Karate was not included in the 2024 games having debuted in Tokyo 2024.
+          Karate was not included in the 2024 games having debuted in Tokyo 2020.
 document_outline: |
   Information about the Paris 2024 Olympics
 document:
