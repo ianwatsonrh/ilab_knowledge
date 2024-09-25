@@ -1,0 +1,108 @@
+version: 3
+domain: history
+created_by: ian watson
+seed_examples:
+  - context: |
+      Great Britain, known as Team GB, competed at the 2024 Summer Olympics in Paris.
+      The delegation of 327 athletes included 172 women and 155 men and featured 73 medallists from previous Games.
+      The team was made up of athletes from the whole United Kingdom including Northern Irelans.
+      Additionally some British overseas territories compete separately from Britain in Olympic competition.
+    questions_and_answers:
+      - question: |
+          How many athletes competed for Great Britain in the 2024 Olympics?
+        answer:
+          327 athletes including 172 women and 155 men
+      - question: |
+          What is Great Britain team also known as?
+        answer: |
+          Team GB
+      - question: |
+          How many athletes had a medal from a previous Games?
+        answer: 73 Athletes were medallists from a previous Games
+  - context: |
+      The United States of America (USA) competed at the 2024 Summer Olympics in Paris.
+      As Los Angeles is hosting the 2028 Summer Olympics.
+      The opening ceremony flag-bearers for the United States were LeBron James and Coco Gauff
+      Additionally, an American segment featuring H.E.R. and Tom Cruise from Paris,
+      and the Red Hot Chili Peppers, Billie Eilish, Snoop Dogg, and Dr. Dre from Long Beach,
+      was performed during the closing ceremony.
+    questions_and_answers:
+      - question: |
+          Where is the 2028 Olympics being held?
+        answer: |
+          The 2028 Summer Olympics is being held in the USA, Los Angles.
+      - question: |
+          Who were the flag-bearers for the USA at the 2024 Olympics?
+        answer: |
+          LeBron James and Coco Gauff
+      - question: |
+          Who performed for the USA at the closing ceremony?
+        answer: |
+          H.E.R and Tom Cruise were part of the American segment performing at the closing ceremony
+  - context: |
+      Athletics at the 2024 Summer Olympics in Paris were held between 1 and 11 August 2024.
+      A total of 48 medal events across three distinct sets: track and field, road running, and racewalking.
+    questions_and_answers:
+      - question: |
+          When did the Athletics events take plae in the 2024 Olympics?
+        answer: |
+          Athletics events were held between 1 and 11 August 2024.
+      - question: |
+          How many medal events were held in Athletics?
+        answer: |
+          There were 48 medal events across the distinct sets of track and field, road running and race walking.
+      - question: |
+          What were the 3 distinct events for the Athletics?
+        answer: |
+          Track and field, road running and racewalking.
+  - context: |
+      The swimming competitions at the 2024 Summer Olympics in Paris were held from 27 July to 9 August 2024.
+      Pool events (27 July to 4 August) took place at the Paris La Défense Arena.
+      The two-day marathon swimming (8 to 9 August) staged at Pont Alexandre III through the Seine River.
+    questions_and_answers:
+      - question: |
+          When did the swimming competitions occur at the 2024 Olympics?
+        answer: |
+          The swiming events were held in paris between 27th July to 9th August 2024.
+      - question: |
+          Where did the swimming events take place?
+        answer: |
+          The swimming events took place at the Paris La Défense Arena.
+      - question: |
+          When did the swimming marathon take place?
+        answer: |
+          The swimming marathon took place between on the 8 to 9 August
+  - context: |
+      The 2024 Olympics branded as Paris 2024 were held in Franch between the 26th July 2024 to the 11th August 2024.
+      The opening ceremony took place on the 26th July. Athletes from 184 countries competed in the 2024 Olympics.
+      There were 32 sports featured including 4 new sports of skateboarding, sport climbing, surfing and breaking.
+      Karate was not included in the 2024 games having been debuted in Tokyo 2020.
+      Baseball-softball was also absent from 2024 but will return in the next Olympics in Los Angles 2028.
+    questions_and_answers:
+      - question: |
+          When did the 2024 Olympics take place?
+        answer: |
+          Between the 26th July 2024 and the 11th August 2024.
+      - question: |
+          Where did the 2024 Olympics take place?
+        answer: |
+          The 2024 Olympics took place in France.
+      - question: |
+          How many countries competed in the 2024 Olympics?
+        answer: |
+          184 countries competed in the 2024 Olympics
+      - question: |
+          How many sports featured at the 2024 Olympics?
+        answer: |
+          32 sports including the 4 sport debuts of skateboarding, sport climbing, surfing and breaking.
+      - question: |
+          What sports were dropped from the 2024 Olympics?
+        answer: |
+          Karate was not included in the 2024 games having debuted in Tokyo 2024.
+document_outline: |
+  Information about the Paris 2024 Olympics
+document:
+  repo: https://github.com/ianwatsonrh/ilab_knowledge
+  commit: d45ee6e60736e7e7f77971915058d22fbbc9eee3
+  patterns:
+    - Paris2024v3.md
